@@ -1,2 +1,2 @@
-# real-history-of-Bangladesh
-We are taking several history books about Bangladesh and building a RAG system. The goal is to make people know any specific event of history within seconds.
+# dev branch of real-history-of-Bangladesh
+This branch is for all experimentation. All codes for all kind of experiment for this project should be included here. 
