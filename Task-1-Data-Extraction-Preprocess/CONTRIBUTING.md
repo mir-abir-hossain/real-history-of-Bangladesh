@@ -9,10 +9,11 @@ This guide will give you general instructions on how to contribute to the data e
 5. Feel free to show interest even if you are not the first person to do so. Depending on the length or difficulty, one task may require multiple contributors to finish.
 
 ## How to Commit Your Work
-1. From the main page of the GitHub repository, click 'Fork' to fork it. Uncheck the option 'Copy the main branch only' and click 'Create fork'.
+1. If this is your first issue, you need to fork the repository first. From the main page of the GitHub repository, click 'Fork' to fork it. Uncheck the option 'Copy the main branch only' and click 'Create fork'. If this isn't your first issue, proceed to step 3.
 2. Clone the forked repository to your local machine and open it using the terminal/command line or with your favourite IDE.
 3. Switch to the **dev** branch: `git checkout dev`
-4. Now, create a new branch. Name it using the following convention: **data_<your_github_username>_<one_or_two_words_on_the_issue>**. For example, if your GitHub username is **user123** and you are working on cleaning the file **sample_1.txt**, you can use the following branch name: **data_user123_sample1_cleanup**. You can name your branches differently as long as you start with **data_<your_github_username>_**
+4. If this isn't your first issue (i.e. you're already working on the clone of your forked repo), run the command `git pull` to pull the latest code from the **dev** branch.
+5. Now, create a new branch. Name it using the following convention: **data_<your_github_username>_<one_or_two_words_on_the_issue>**. For example, if your GitHub username is **user123** and you are working on cleaning the file **sample_1.txt**, you can use the following branch name: **data_user123_sample1_cleanup**. You can name your branches differently as long as you start with **data_<your_github_username>_**
 5. Push your work to this branch.
 
 ## Create a Pull Request (PR)
